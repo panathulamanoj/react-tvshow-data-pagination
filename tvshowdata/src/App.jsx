@@ -44,7 +44,7 @@ function App() {
    </div>
    <div id="pagesc">
     {pages.map((ele)=>{
-      return <button key={uuid()} onClick={()=>(setcpage(ele))} style={{backgroundColor:(cpage==ele?'rgb(120, 156, 66)':'transparent')}}>{ele}</button>
+      return <button key={uuid()} onClick={()=>(setcpage(ele))} style={{backgroundColor:(cpage==ele?'rgb(120, 156, 66)':'rgba(255,255,255,0.2')}}>{ele}</button>
     })}
    </div>
    </div>
